@@ -1,0 +1,43 @@
+* {
+    padding: o;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* nav */
+
+nav .row .bg-blue {
+    height: 80px;
+    background-color: lightblue;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+nav .row .bg-blue section {
+    height: 100%;
+    background-color: lightslategray;
+}
+
+/* / nav */
+
+/* section jumbotron */
+
+#jumbotron {
+    height: 600px;
+    background-color: lightcoral;
+}
+
+.col-12 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jumbo-image {
+    width: 800px;
+    height: 550px;
+    background-color: lightgreen;
+}
+
+/* / section jumbotron */

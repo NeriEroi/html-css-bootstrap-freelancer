@@ -105,7 +105,34 @@ nav .row .col-6.bg-blue section {
     border: 1px solid black;
 }
 
-
 /* / section about */
+
+
+/* contact me */
+
+#contact-me {
+    height: 500px;
+    background-color: lightsalmon;
+}
+
+#contact-me .container .col-12 {
+    height: 100px;
+    background-color: orangered;
+}
+
+#contact-me .container .row {
+    line-height: 50px;
+    border-bottom: 1px solid black;
+}
+
+#contact-me .container .row:nth-of-type(5) {
+    height: 200px;
+}
+
+#contact-me .container .col-1 {
+    line-height: 50px;
+}
+
+/* / contact me */
 
 /* / MAIN */

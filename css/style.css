@@ -4,9 +4,11 @@
     box-sizing: border-box;
 }
 
+/* HEADER */
+
 /* nav */
 
-nav .row .bg-blue {
+nav .row .col-6.bg-blue {
     height: 80px;
     background-color: lightblue;
     border: 1px solid black;
@@ -14,7 +16,7 @@ nav .row .bg-blue {
     justify-content: center;
 }
 
-nav .row .bg-blue section {
+nav .row .col-6.bg-blue section {
     height: 100%;
     background-color: lightslategray;
 }
@@ -41,3 +43,42 @@ nav .row .bg-blue section {
 }
 
 /* / section jumbotron */
+
+/* / HEADER */
+
+
+/* MAIN */
+
+/* section portfolio */
+
+#portfolio {
+    height: 700px;
+    background-color: lightsalmon;
+}
+
+#portfolio .col-12 {
+    height: 200px;
+    background-color: orangered;
+}
+
+#portfolio .row {
+    display: flex;
+    justify-content: center;
+}
+
+#portfolio .row .col-2 {
+    height: 200px;
+    background-color: grey;
+    border: 1px solid black;
+}
+
+
+
+
+
+
+
+
+/* / section portfolio */
+
+/* / MAIN */

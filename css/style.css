@@ -136,3 +136,36 @@ nav .row .col-6.bg-blue section {
 /* / contact me */
 
 /* / MAIN */
+
+/* FOOTER */
+
+footer #footer-top {
+    height: 150px;
+    background-color: grey;
+}
+
+footer #footer-bottom {
+    height: 100px;
+    background-color: lightgrey;
+}
+
+footer .row {
+    display: flex;
+    justify-content: center;
+}
+
+footer .row .col-3 {
+    height: 100px;
+    background-color: peru;
+    border: 1px solid black;
+}
+
+footer .row .col-12 {
+    height: 100px;
+    background-color: peru;
+    border: 1px solid black;
+}
+
+
+
+/* / FOOTER */

@@ -8,15 +8,13 @@
 
 /* nav */
 
-nav .row .col-6.bg-blue {
+nav .row .nav_bg_blue {
     height: 80px;
     background-color: lightblue;
     border: 1px solid black;
-    display: flex;
-    justify-content: center;
 }
 
-nav .row .col-6.bg-blue section {
+nav .row .nav_bg_blue section {
     height: 100%;
     background-color: lightslategray;
 }
@@ -30,14 +28,8 @@ nav .row .col-6.bg-blue section {
     background-color: lightcoral;
 }
 
-.col-12 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .jumbo-image {
-    width: 800px;
+    max-width: 550px;
     height: 550px;
     background-color: lightgreen;
 }
@@ -61,15 +53,11 @@ nav .row .col-6.bg-blue section {
     background-color: orangered;
 }
 
-#portfolio .container .row {
-    display: flex;
-    justify-content: center;
-}
-
 #portfolio .container .row .col-12 {
     height: 200px;
     background-color: grey;
     border: 1px solid black;
+    border-radius: 20px;
 }
 
 /* / section portfolio */
@@ -87,16 +75,11 @@ nav .row .col-6.bg-blue section {
     background-color: orangered;
 }
 
-#about .container .row {
-    display: flex;
-    justify-content: center;
-}
-
 #about .container .row .col-1 {
+    min-width: 100px;
     background-color: yellow;
     border: 1px solid black;
     border-radius: 50px;
-    align-self: center;
 }
 
 #about .container .row .col-5 {
@@ -136,6 +119,7 @@ nav .row .col-6.bg-blue section {
 /* / contact me */
 
 /* / MAIN */
+
 
 /* FOOTER */
 

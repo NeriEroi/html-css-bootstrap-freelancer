@@ -13,15 +13,15 @@ button {
     background-color: #2C3E50;
 }
 
-nav .row .nav_bg_blue {
+nav .row .col-6 {
     height: 80px;  
 }
 
-nav .row .nav_bg_blue section {
+nav .row .col-6 section {
     height: 100%;
 }
 
-nav .row .nav_bg_blue section .button-cont button {
+nav .row .col-6 section .button_cont button {
     font-size: 25px;
     color: white;
     font-size: 30px;
@@ -43,15 +43,42 @@ nav ul a {
 
 /* section jumbotron */
 
-#jumbo-cont {
+#jumbo_cont {
     height: 600px;
-    background-color: lightcoral;
+    background-color: #1ABC9C;
 }
 
-.jumbo-image {
-    max-width: 550px;
+#jumbo_cont .row .col-12 .col-4 {
     height: 550px;
-    background-color: lightgreen;
+}
+
+#jumbo_cont .jumbo_image_star_text_cont .jumbo_image {
+    width: 45%;
+}
+
+#jumbo_cont .jumbo_image_star_text_cont .jumbo_image img {
+    width: 100%;
+}
+
+#jumbo_cont .jumbo_image_star_text_cont h1 {
+    font-size: 60px;
+    color: white;
+}
+
+#jumbo_cont .jumbo_image_star_text_cont .star_lines .line {
+    width: 150px;
+    height: 4px;
+    background-color: white;
+}
+
+#jumbo_cont .jumbo_image_star_text_cont .star_lines i {
+    color: white;
+    font-size: 30px;
+}
+
+#jumbo_cont .jumbo_image_star_text_cont p {
+    color: white;
+    font-size: 25px;
 }
 
 /* / section jumbotron */

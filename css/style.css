@@ -230,29 +230,16 @@ nav ul a {
 
 footer #footer-top {
     height: 150px;
-    background-color: grey;
+    background-color: #3A546D;
 }
 
 footer #footer-bottom {
     height: 100px;
-    background-color: lightgrey;
-}
-
-footer .row {
-    display: flex;
-    justify-content: center;
-}
-
-footer .row .col-3 {
-    height: 100px;
-    background-color: peru;
-    border: 1px solid black;
+    background-color: #2C3E50;
 }
 
 footer .row .col-12 {
     height: 100px;
-    background-color: peru;
-    border: 1px solid black;
 }
 
 /* / FOOTER */

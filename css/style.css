@@ -25,7 +25,7 @@ nav .row .col-6.bg-blue section {
 
 /* section jumbotron */
 
-#jumbotron {
+#jumbo-cont {
     height: 600px;
     background-color: lightcoral;
 }
@@ -52,7 +52,7 @@ nav .row .col-6.bg-blue section {
 /* section portfolio */
 
 #portfolio {
-    height: 700px;
+    min-height: 700px;
     background-color: lightsalmon;
 }
 
@@ -66,7 +66,7 @@ nav .row .col-6.bg-blue section {
     justify-content: center;
 }
 
-#portfolio .container .row .col-2 {
+#portfolio .container .row .col-12 {
     height: 200px;
     background-color: grey;
     border: 1px solid black;
